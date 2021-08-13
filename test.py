@@ -48,8 +48,8 @@ def test_api_request():
   #              credentials in a persistent database instead.
   flask.session['credentials'] = credentials_to_dict(credentials)
 
-  read_calender()
-  return  flask.session['credentials']
+  #read_calender() # testing the read calendar function
+  return  flask.session['credentials'] # returns your credentials as json
 
 
 @app.route('/authorize')

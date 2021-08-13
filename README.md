@@ -1,10 +1,12 @@
 # How To use this project
-## Files to be aware of
+
+## Important Files
 - test.py
-    - This is where all the code that connects to google calendar is located at 
+    - This is where all the code that connects to google calendar is located at
+        - the /test route is acting is a main() function
 - credential.json
-    - This is my credentials for my google app I had to create(using the google console) to interact with their api's 
-    
+    - This is my credentials for my google app I had to create(using the google console)to interact with their api's 
+
 ## Steps
 - Start up the env (source env/bin/activate)
 - Run your server on port 8080
@@ -16,4 +18,6 @@
         - I will add memeos and marks codepaths emails to the test emails
 - Once you have authenticated yourselves
 - You can now test other functions in the '/test' route
-- check out the 
+- check out the `read_calender()` and `create_event()` functions.
+- You can create more functions and test in `test()`function
+    - I was testinf `read_calender`
